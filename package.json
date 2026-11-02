@@ -1,0 +1,17 @@
+{
+  "name": "blockchain-learning-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "블록체인 왕초보를 위한 단계별 실습 프로젝트",
+  "scripts": {
+    "test": "node --test",
+    "example:chain": "node src/01-chain-example.js",
+    "example:blockchain": "node src/03-blockchain.js",
+    "example:integrity": "node src/04-integrity-example.js",
+    "example:proof-of-work": "node src/05-proof-of-work-example.js",
+    "example:transaction": "node src/06-transaction-example.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
